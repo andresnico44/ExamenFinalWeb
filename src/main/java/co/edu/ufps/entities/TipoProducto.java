@@ -4,13 +4,12 @@ import lombok.Data;
 
 @Entity
 @Data
-public class Tipo_Producto {
+public class TipoProducto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     private String nombre;
 
-    // Getters y Setters
 }
 

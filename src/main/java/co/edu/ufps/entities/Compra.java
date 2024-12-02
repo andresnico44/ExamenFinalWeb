@@ -34,7 +34,7 @@ public class Compra {
     private String observaciones;
 
     @OneToMany(mappedBy = "compra", cascade = CascadeType.ALL)
-    private List<Detalles_Compra> detallesCompra;
+    private List<DetallesCompra> detallesCompra;
 
     @OneToMany(mappedBy = "compra", cascade = CascadeType.ALL)
     private List<Pago> pagos;

@@ -14,7 +14,7 @@ public class Cliente {
 
     @ManyToOne
     @JoinColumn(name = "tipo_documento_id")
-    private Tipo_Documento tipoDocumento;
+    private TipoDocumento tipoDocumento;
 
 }
 

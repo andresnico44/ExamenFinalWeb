@@ -1,4 +1,6 @@
 package co.edu.ufps.entities;
+import java.util.Optional;
+
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -15,7 +17,7 @@ public class Pago {
 
     @ManyToOne
     @JoinColumn(name = "tipo_pago_id")
-    private Tipo_Pago tipoPago;
+    private TipoPago tipoPago;
 
     private String tarjetaTipo;
     private Integer cuotas;

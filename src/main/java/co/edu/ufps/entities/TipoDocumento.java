@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Entity
 @Data
-public class Tipo_Documento {
+public class TipoDocumento {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
